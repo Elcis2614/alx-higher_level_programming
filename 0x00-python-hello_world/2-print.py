@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-python3 PYFILE
+print("Programming is like building a multilingual puzzle\n")

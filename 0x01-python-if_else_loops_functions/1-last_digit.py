@@ -5,7 +5,7 @@ if (number < 0):
     lastDig = (-1) * (number%10)
 else:
     lastDig = number%10
-print(f"Last digit of {number} is {lastDig}", end = " "}
+print(f"Last digit of {number} is {lastDig}", end = " ")
 if (lastDig > 5):
     print("and is greater than 5")
 elif (lastDig == 0):

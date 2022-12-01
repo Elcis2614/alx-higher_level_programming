@@ -8,6 +8,6 @@ if __name__ == "__main__":
         if x == 1:
             print("0 arguments.")
         else:
-            print("{a} arguments:".format(a=x))
+            print("{a} arguments:".format(a=x - 1))
     for j in range(1, x):
         print("{i}: {a}".format(i=j, a=arg[j]))

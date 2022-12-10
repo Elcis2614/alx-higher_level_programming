@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 def islower(c):
-    if(c >= 'a' and c <= 'z'):
+    x = ord(c)
+    if(x >= ord('a') and x <= ord('z')):
         return True
-    elif(c >= 'A' and c <= 'Z'):
-        return False
+    elif(x >= ord('A') and x <= ord('Z')):
+        return False;

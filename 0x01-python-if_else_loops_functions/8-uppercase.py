@@ -8,4 +8,4 @@ def uppercase(str):
                 s += chr(x - 32)
             else:
                 s += str[i]
-        print(s)
+        print("{}".format(s))

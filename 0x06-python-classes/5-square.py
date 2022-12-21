@@ -37,4 +37,4 @@ class Square:
             for i in range(size):
                 for j in range(size):
                     print("{}".format("#"), end="")
-                print("\n")
+                print()

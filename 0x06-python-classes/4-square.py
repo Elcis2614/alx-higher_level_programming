@@ -5,7 +5,7 @@ a class with one private attribute, i just hope it will work"""
 
 class Square:
     """This class defines the square"""
-    def __init__(self, size):
+    def __init__(self, size=0):
         self.size = size
 
     @property

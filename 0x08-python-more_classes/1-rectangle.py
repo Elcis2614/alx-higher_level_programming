@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""Rectangle class almost complety """
+
+
 class Rectangle:
     """This is a class with attributes"""
     def __init_(self, width=0, height=0):

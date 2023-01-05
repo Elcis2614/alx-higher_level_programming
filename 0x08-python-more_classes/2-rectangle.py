@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+""""Rectangle class with more atttriubte"""
+
+
 class Rectangle:
     """This is a class with attributes"""
     def __init_(self, width=0, height=0):
@@ -38,8 +41,9 @@ class Rectangle:
     def area(self):
         """return the area of the rectangle"""
         return self.__width * self.__height
+
     def perimeter(self):
         """returns the perimeter of the rectangle"""
         if (self.__width == 0 or self.__height == 0):
             return 0
-        return (self.__width + self.__height)*2
+        return (self.__width + self.__height) * 2

@@ -50,9 +50,10 @@ class Rectangle:
 
     def __str__(self):
         """Return a printable format of the rectangle"""
-        if (self.__width ==0 or self.height == 0):
+        myStr = "#"
+        if (self.__width == 0 or self.height == 0):
             return ""
-        for i in range(self.__height):
-            for i in range(self.__width):
-                print("{}".format("#"), end="")
-            print()
+        myStr *= self.__width
+        myStr += "\n"
+        myStr *= self.__height
+        return myStr[:-1]

@@ -7,7 +7,6 @@ class Rectangle(BaseGeometry):
     """ Rectangle class with height and width"""
     def __init__(self, width, height):
         """Initiate the object"""
-        super().__init__()
         if(self.integer_validator("height", height)):
             self.__height = height
         if(self.integer_validator("width", width)):

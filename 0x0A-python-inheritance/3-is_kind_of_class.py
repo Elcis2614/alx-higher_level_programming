@@ -2,7 +2,7 @@
 """checking the parent class"""
 
 
-def is_same_class(obj, a_class):
+def is_kind_of_class(obj, a_class):
     """Method checks is object is from a Class"""
     if (type(obj) == a_class or isinstance(obj, a_class)):
         return True

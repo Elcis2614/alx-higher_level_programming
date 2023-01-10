@@ -4,4 +4,7 @@
 
 def is_same_class(obj, a_class):
     """Method checks is object is from a Class"""
-    return isinstance(obj, a_class)
+    if (type(obj) == a_class or isinstance(obj, a_class)):
+        return True
+    else:
+        return False

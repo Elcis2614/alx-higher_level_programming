@@ -4,4 +4,4 @@
 
 def inherits_from(obj, a_class):
     """Method checks is object inherit from a Class"""
-    return (isinstance(obj, a_class) or isinstance(type(obj), a_class))
+    return (issubclass(type(obj), a_class) and type(obj) != a_class)

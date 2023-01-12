@@ -4,6 +4,8 @@
 
 def read_file(filename=""):
     """ Reads a file """
-    with open(filename, encoding='uft-8') as m_file:
-        for line in m-file:
-            print(line, end="")
+    with open(filename, encoding='utf-8') as m_file:
+        x = m_file.read()
+        while (x != ""):
+            print(x, end="")
+            x = m_file.read()

@@ -1,2 +1,2 @@
 #!/bin/bash
-cat $1 | mysql -hlocalhost -uroot -p EXOS
+cat $1 | mysql -hlocalhost -uroot -pRefloR1431! EXOS

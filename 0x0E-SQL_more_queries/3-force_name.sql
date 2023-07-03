@@ -2,4 +2,4 @@
 -- The database name is passed as an argument
 CREATE TABLE IF NOT EXISTS force_name (
 	id INT,
-	name VARCHAR(256) NON NULL);
+	name VARCHAR(256) NOT NULL);

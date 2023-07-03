@@ -1,0 +1,5 @@
+-- creates the table force_name on your MySQL server
+-- The database name is passed as an argument
+CREATE TABLE IF NOT EXISTS force_name (
+	id INT,
+	name VARCHAR(256) NON NULL);

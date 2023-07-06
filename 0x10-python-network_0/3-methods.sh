@@ -1,3 +1,3 @@
 #!/bin/bash
-#display options all HTTP methods the server will accept
-curl -s -X OPTIONS $1
+#curl gets only the header response , grep gets the centent-length line and awk separes the value from the name
+curl -sI $1 | grep -iF allow: | awk -F': ' '{print $(NF) }'

@@ -1,19 +1,18 @@
 #!/usr/bin/python3
 """ Contain only function """
 
-def find_peak(list_of_integers = []):
+
+def find_peak(list_of_integers=[]):
     """ Finds the peak of a list """
 
-    l = list_of_integers
-    if l == [] :
+    if (list_of_integers == []):
         return None
 
-    elif len(l) < 3 :
+    elif len(list_of_integers) < 3:
         return None
 
-    else :
-        for i in range(1, len(l) - 1):
-            if (l[i] >= l[i - 1] and l[i] >= l[i+1]):
-                return l[i]
-if __name__ == "__main__":
-    print (find_peak([1,2,3,2]))
+    else:
+        for i in range(len(list_of_integers) - 1):
+            if (list_of_integers[i] >= list_of_integers[i - 1]
+                    and list_of_integers[i] >= list_of_integers[i + 1]):
+                return list_of_integers[i]
